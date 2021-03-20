@@ -160,3 +160,55 @@ E_Form emp = new E_Form();
         int sal = emp.getSalary();  
 
         int increment = 0;
+
+
+
+
+
+        if ((sal >=1000) && (sal <=1500))  
+
+        {  
+
+            
+
+            increment += (sal * 2)/100;  
+
+            sal = sal+increment;  
+
+ 
+
+            emp.setSalary(sal);  
+
+            System.out.println("\ Salary is incremented \");  
+
+            System.out.println(emp);  
+
+ 
+
+        }else if ((sal >=1500) && (sal <=20000)){  
+
+            
+
+            increment += (sal * 5)/100;  
+
+            sal = sal+increment;  
+
+ 
+
+            emp.setSalary(sal);  
+
+            System.out.println("\ Salary is incremented ");  
+
+            System.out.println(emp);  
+
+        }else {  
+
+            System.out.println("\ Salary is not incremented ");  
+
+            System.out.println(emp);  
+
+        }         
+
+    }  
+
+}
