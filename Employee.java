@@ -98,3 +98,40 @@ public void setDepartment(String department) {
 
     }
 
+class Employee{  
+
+    
+
+    public static void main(String args[]) {  
+
+                              Scanner sc = new Scanner(System.in);
+
+                              
+
+                              System.out.print("Enter employee ID: ");
+
+                              int emp_id = sc.nextInt();
+
+                              System.out.print("Enter employee fullname: ");
+
+                              String emp_id1 = sc.nextLine();
+
+                              String fullname = sc.nextLine();
+
+                              System.out.print("Enter department: ");
+
+                              String dept = sc.nextLine();
+
+                              System.out.print("Enter salary: ");
+
+                              int salary = sc.nextInt();
+
+                              System.out.print("Enter address: ");
+
+                              String emp_id2 = sc.nextLine();
+
+                              String address = sc.nextLine();
+
+                              System.out.print("Enter email address: ");
+
+                              String email = sc.nextLine();
