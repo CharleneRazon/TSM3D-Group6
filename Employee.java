@@ -135,3 +135,28 @@ class Employee{
                               System.out.print("Enter email address: ");
 
                               String email = sc.nextLine();
+E_Form emp = new E_Form();  
+
+        
+
+        emp.setEmp_id(emp_id);  
+
+        emp.setName(fullname);  
+
+        emp.setDepartment(dept);  
+
+        emp.setSalary(salary);  
+
+        emp.setAddress(address);  
+
+        emp.setEmail(email);  
+
+        System.out.println(emp);  
+
+ 
+
+        
+
+        int sal = emp.getSalary();  
+
+        int increment = 0;
